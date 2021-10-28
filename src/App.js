@@ -7,7 +7,6 @@ function App() {
    const [loading,setLoading] = useState(true)
    const [page,setPage] = useState({ prev: false, next: true })
    const [charInput, setCharInput] = useState(null)
-   const [inputFoucs, setInputFoucs] = useState(false)
 
   useEffect(() => {
     (async () => {
