@@ -111,6 +111,7 @@ function App() {
           aria-label="Search"
           onClick={() => handleSearch()}
           className={classes.buttonText}
+		  aria-label="Search button"
         >
           Search
         </Button>
@@ -136,6 +137,7 @@ function App() {
         onClick={() => pagination("prev", page)}
         style={{ display: page.prev === null ? "none" : "inline-block" }}
         className={classes.buttonText}
+		aria-label="Prev button"
       >
         Prev
       </Button>
@@ -143,6 +145,7 @@ function App() {
         onClick={() => pagination("next", page)}
         style={{ display: page.next === null ? "none" : "inline-block" }}
         className={classes.buttonText}
+		aria-label="Next button"
       >
         Next
       </Button>

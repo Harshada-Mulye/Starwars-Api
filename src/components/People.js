@@ -44,6 +44,7 @@ function People({ item, index }) {
             className={classes.buttonDisplay}
             onClick={() => setIsOpen(!isOpen)}
             aria-expanded={isOpen}
+			aria-label="Name display"
             data-allow-toggle
           >
             {name}
